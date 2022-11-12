@@ -1,0 +1,19 @@
+
+1.Subset the dataset Orders in the folder datasets to create a dataset with only “Online” payment.
+
+2. Consider the dataset mtcars. Output (write) the data in this data set into a csv file and name the csv file as 
+mtcars.csv.
+
+3. Consider the dataset diamonds in the folder datasets. Subset the dataset with criteria as cut=Premium and 
+color=J
+
+4. Consider the dataset diamonds in the folder datasets. Create a data frame object which stores just variables 
+carat, color, depth and price
+
+5. Consider the dataset mtcars. Choose the 2nd, 18th, 30th and 12th rows
+
+6. Given Orders.csv file in the folder datasets. Import the file into R and generate the summary and info using str and summary function and see the difference
+
+7.Generate the frequency counts for the categorical variables Aspiration and Transmission in the dataset 
+cars2018.csv. Also generate their crosstabs
+

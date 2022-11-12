@@ -1,0 +1,23 @@
+n = 10
+# creating a data frame
+tidy_dataframe = data.frame(
+                      S.No = c(1:n), 
+                    Group.1 = c(23, 345, 76, 212, 88, 
+                                199, 72, 35, 90, 265),
+                    Group.2 = c(117, 89, 66, 334, 90, 
+                               101, 178, 233, 45, 200),
+                    Group.3 = c(29, 101, 239, 289, 176,
+                                320, 89, 109, 199, 56))
+  
+# print the elements of the data frame
+tidy_dataframe
+
+
+
+
+stocks <- tibble(
+  year = c(2015,2015,2015,2015,2016,2016,2016),
+  qtr = c(1,2,3,4,2,3,4),
+  return = c(1.88, 0.59, 0.35, NA, 0.92, 0.17, 2.66)
+)
+stocks
